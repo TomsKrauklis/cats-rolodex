@@ -1,0 +1,11 @@
+.card-list {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    background: rgb(238,174,202);
+background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(180,182,222,1) 50%);
+filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+}

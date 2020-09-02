@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(101,53,105,1) 42%, rgba(0,212,255,1) 100%);
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    max-width: 200px;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+
+  .card-container p, h2{
+      color:#e3dac9;
+  }
